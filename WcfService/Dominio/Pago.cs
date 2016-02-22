@@ -27,4 +27,5 @@ namespace WcfService.Dominio
          [DataMember]
         public DateTime dt_fecha { get; set; }
     }
+
 }
