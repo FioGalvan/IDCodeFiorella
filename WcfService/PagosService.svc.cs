@@ -14,6 +14,9 @@ namespace WcfService
     // NOTE: In order to launch WCF Test Client for testing this service, please select PagosService.svc or PagosService.svc.cs at the Solution Explorer and start debugging.
     public class PagosService : IPagosService
     {
+
+       
+
         private PagoDAO pagoDAO = null;
         private PagoDAO PagoDAO
         {
