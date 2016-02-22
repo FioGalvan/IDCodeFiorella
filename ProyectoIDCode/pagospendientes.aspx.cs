@@ -53,7 +53,6 @@ namespace ProyectoIDCode
             tb.Columns.Add("Monto");
             tb.Columns.Add("Fecha");
 
-
             foreach (var item in pagosRealizados)
             {
                 PagoPendiente pago = (PagoPendiente)item;
