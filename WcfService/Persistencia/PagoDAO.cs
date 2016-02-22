@@ -30,7 +30,6 @@ namespace WcfService.Persistencia
                         {
                             Pago pagoPendiente = new Pago()
                             {
-
                                 cd_alumno = (string)resultado["cd_alumno"],
                                 ds_pago = (string)resultado["ds_pago"],
                                 qt_monto = (decimal)resultado["qt_monto"],
