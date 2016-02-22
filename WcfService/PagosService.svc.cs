@@ -35,11 +35,10 @@ namespace WcfService
             {
                 resp = new Respuesta()
                 {
-                    mensaje = "Usted tiene pagos pendientes por cancelar. Por favor, acérquese al área de secretaria.",
+                    mensaje = "Usted tiene pagos pendientes por cancelar. Por favor acérquese al área de secretaria.",
+
                     flag = 0
                 };
-
-                return resp;
             }
             else
             {
